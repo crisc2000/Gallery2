@@ -341,4 +341,3 @@ $_SESSION['install_steps'] = serialize($steps);
 if (isset($galleryStub)) {
     $_SESSION['galleryStub'] = serialize($galleryStub);
 }
-?>

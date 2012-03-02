@@ -265,4 +265,3 @@ class MaintenanceTask {
 	return false;
     }
 }
-?>

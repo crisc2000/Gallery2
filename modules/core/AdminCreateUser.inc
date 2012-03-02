@@ -165,4 +165,3 @@ class AdminCreateUserView extends GalleryView {
 		     array('body' => 'modules/core/templates/AdminCreateUser.tpl'));
     }
 }
-?>

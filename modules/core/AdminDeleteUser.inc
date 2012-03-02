@@ -213,4 +213,3 @@ class AdminDeleteUserView extends GalleryView {
 		     array('body' => 'modules/core/templates/AdminDeleteUser.tpl'));
     }
 }
-?>

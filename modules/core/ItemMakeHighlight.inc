@@ -131,4 +131,3 @@ class ItemMakeHighlightView extends GalleryView {
 	return array(null, $core->translate('make highlight'));
     }
 }
-?>

@@ -771,4 +771,3 @@ class ItemEditAlbum extends ItemEditPlugin {
 	return array(null, $module->translate('Album'));
     }
 }
-?>

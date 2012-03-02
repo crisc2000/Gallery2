@@ -236,4 +236,3 @@ class ItemAddFromBrowser extends ItemAddPlugin {
 	return array(null, $module->translate('From Web Browser'));
     }
 }
-?>

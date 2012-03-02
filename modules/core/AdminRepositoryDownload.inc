@@ -272,4 +272,3 @@ class AdminRepositoryDownloadView extends GalleryView {
 	return $result;
     }
 }
-?>

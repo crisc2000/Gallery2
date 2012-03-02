@@ -261,4 +261,3 @@ class ErrorPageView extends GalleryView {
 	return $errorHandled;
     }
 }
-?>

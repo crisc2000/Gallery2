@@ -102,4 +102,3 @@ class AdminToolkitPriorityView extends GalleryView {
 	return array(null, array('body' => 'modules/core/templates/AdminToolkitPriority.tpl'));
     }
 }
-?>

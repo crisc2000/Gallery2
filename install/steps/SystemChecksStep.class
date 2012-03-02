@@ -528,4 +528,3 @@ class SystemChecksStep extends InstallStep {
 		     'shouldRemove' => $shouldRemove);
     }
 }
-?>

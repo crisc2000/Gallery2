@@ -239,4 +239,3 @@ class UserPreferencesView extends GalleryView {
 	return array(null, $core->translate('your account'));
     }
 }
-?>

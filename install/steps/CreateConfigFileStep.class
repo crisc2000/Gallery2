@@ -233,4 +233,3 @@ class CreateConfigFileStep extends InstallStep {
 	return array($versionsOk, $recommendUpgrade, $versions);
     }
 }
-?>

@@ -98,4 +98,3 @@ class StatusTemplate {
 	$this->renderBodyAndFooter($templateData);
     }
 }
-?>

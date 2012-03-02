@@ -181,4 +181,3 @@ class ItemAddAlbumView extends GalleryView {
 	return array(null, $core->translate('add sub-album'));
     }
 }
-?>

@@ -98,4 +98,3 @@ class ShowItemErrorView extends GalleryView {
 	return VIEW_TYPE_ADMIN;
     }
 }
-?>

@@ -45,4 +45,3 @@ class AdminEventLogViewerView extends GalleryView {
 	return array(null, array('body' => 'modules/core/templates/AdminEventLogViewer.tpl'));
     }
 }
-?>

@@ -200,4 +200,3 @@ class UserRecoverPasswordAdminView extends GalleryView {
 	$session->put('core.UserRecoverPasswordAdminAuthKey', md5($rand));
     }
 }
-?>

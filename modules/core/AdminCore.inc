@@ -330,4 +330,3 @@ class AdminCoreView extends GalleryView {
 		     array('body' => 'modules/core/templates/AdminCore.tpl'));
     }
 }
-?>

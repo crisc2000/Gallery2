@@ -858,4 +858,3 @@ class ItemAddOption {
 	return array(null, false);
     }
 }
-?>

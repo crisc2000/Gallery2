@@ -3584,4 +3584,3 @@ if (!isset($gallery) || !method_exists($gallery, \'setConfig\')) {
 	}
     }
 }
-?>

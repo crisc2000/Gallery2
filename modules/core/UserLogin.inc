@@ -239,4 +239,3 @@ class UserLoginView extends GalleryView {
 	return array(null, array('body' => 'modules/core/templates/UserLogin.tpl'));
     }
 }
-?>

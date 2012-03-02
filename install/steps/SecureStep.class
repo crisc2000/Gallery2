@@ -59,4 +59,3 @@ class SecureStep extends InstallStep {
 	$this->setComplete(true);
     }
 }
-?>

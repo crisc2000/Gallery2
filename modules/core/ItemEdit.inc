@@ -551,4 +551,3 @@ class ItemEditOption {
 	return false;
     }
 }
-?>

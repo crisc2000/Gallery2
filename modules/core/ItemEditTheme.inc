@@ -209,4 +209,3 @@ class ItemEditTheme extends ItemEditPlugin {
 	return array(null, $module->translate('Theme'));
     }
 }
-?>

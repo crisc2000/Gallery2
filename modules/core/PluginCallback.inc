@@ -445,4 +445,3 @@ class PluginCallbackView extends GalleryView {
 	return array(null, $state);
     }
 }
-?>

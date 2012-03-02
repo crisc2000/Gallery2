@@ -560,4 +560,3 @@ class CoreModule extends GalleryModule {
 	return null;
     }
 }
-?>

@@ -129,4 +129,3 @@ class ItemEditAnimation extends ItemEditPlugin {
 	return array(null, $module->translate('Animation Size'));
     }
 }
-?>

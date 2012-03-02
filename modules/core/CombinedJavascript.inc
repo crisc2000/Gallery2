@@ -121,4 +121,3 @@ class CombinedJavascriptView extends GalleryView {
 	return true;
     }
 }
-?>

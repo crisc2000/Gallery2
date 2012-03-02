@@ -434,4 +434,3 @@ class ItemMoveView extends GalleryView {
 	return array(null, $core->translate('move item'));
     }
 }
-?>

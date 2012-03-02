@@ -254,4 +254,3 @@ function GalleryPhpErrorHandler($errorNumber, $errorString, $file, $line, $conte
     /* Fall back to the internal error handler */
     return false;
 }
-?>

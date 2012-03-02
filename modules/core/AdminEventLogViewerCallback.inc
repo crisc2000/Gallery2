@@ -164,4 +164,3 @@ class AdminEventLogViewerCallbackView extends GalleryView {
 	return null;
     }
 }
-?>

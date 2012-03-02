@@ -82,4 +82,3 @@ class RepositoryCallbackView extends GalleryView {
 	return null;
     }
 }
-?>

@@ -214,4 +214,3 @@ class ItemAdminView extends GalleryView {
 	return VIEW_TYPE_ADMIN;
     }
 }
-?>

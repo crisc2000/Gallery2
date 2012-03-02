@@ -119,4 +119,3 @@ class AdminUserSetupStep extends InstallStep {
 	return true;
     }
 }
-?>

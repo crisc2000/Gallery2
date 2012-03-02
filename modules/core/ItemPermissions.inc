@@ -561,4 +561,3 @@ class ItemPermissionsView extends GalleryView {
 						  'arg1' => $itemTypeNames[1])));
     }
 }
-?>

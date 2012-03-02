@@ -261,4 +261,3 @@ class ItemReorderView extends GalleryView {
 	return array(null, $core->translate('reorder items'));
     }
 }
-?>

@@ -241,4 +241,3 @@ function render($renderType, $options=array()) {
 </html>
 <?php
 }
-?>

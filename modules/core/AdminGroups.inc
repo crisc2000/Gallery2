@@ -245,4 +245,3 @@ class AdminGroupsView extends GalleryView {
 	return array(null, array('body' => 'modules/core/templates/AdminGroups.tpl'));
     }
 }
-?>
