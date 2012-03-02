@@ -13,10 +13,11 @@ $phpinfo = preg_replace_callback(
     $phpinfo);
 
 ?>
+<!DOCTYPE html>
 <html>
   <head>
     <title> Gallery Support | PHP Info</title>
-    <link rel="stylesheet" type="text/css" href="<?php print $baseUrl ?>support.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php print $baseUrl ?>support.css">
     <style type="text/css">
       pre {
 	margin: 0px;
