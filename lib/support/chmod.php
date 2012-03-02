@@ -211,7 +211,7 @@ function chmodRecursively($filename, $folderPermissions, $filePermissions, $star
     $filename = rtrim($filename, '\\/');
     $error = 0;
     /* Try to prevent timeouts */
-    if (time() - $start > 55) {
+    if (time() - $start> 55) {
 	if (function_exists('apache_reset_timeout')) {
     	    @apache_reset_timeout();
     	}

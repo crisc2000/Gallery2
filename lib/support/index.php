@@ -8,7 +8,7 @@ ob_start();
 /* Tell other scripts we passed security.inc ok */
 define('G2_SUPPORT', true);
 if (!empty($_SERVER['QUERY_STRING'])) {
-    foreach (array('phpinfo', 'cache', 'gd', 'chmod', 'import') as $script) {
+    foreach (array('phpinfo', 'cache', 'gd', 'chmod', 'import', 'search_db') as $script) {
     	/*
     	 * Don't use isset($_GET[$script]) since we want to allow for GET args could collide
     	 * with the above mentioned script names
@@ -58,7 +58,7 @@ function generateUrl($uri, $print=true) {
       <p class="description">
         PHP configuration information
       </p>
-      <hr class="faint" >
+      <hr class="faint">
 
       <h2>
         <a href="<?php generateUrl('index.php?cache') ?>">Cache Maintenance</a>
@@ -66,7 +66,7 @@ function generateUrl($uri, $print=true) {
       <p class="description">
         Delete files from the Gallery data cache
       </p>
-      <hr class="faint" >
+      <hr class="faint">
 
       <h2>
         <a href="<?php generateUrl('index.php?chmod') ?>">Filesystem Permissions</a>
@@ -74,7 +74,7 @@ function generateUrl($uri, $print=true) {
       <p class="description">
         Change the filesystem permissions of your Gallery and your storage folder.
       </p>
-      <hr class="faint" >
+      <hr class="faint">
 
       <h2>
         <a href="<?php generateUrl('index.php?gd') ?>">GD</a>
@@ -82,7 +82,7 @@ function generateUrl($uri, $print=true) {
       <p class="description">
         Information about your GD configuration
       </p>
-      <hr class="faint" >
+      <hr class="faint">
 
       <h2>
         <a href="<?php generateUrl('index.php?import') ?>">Import Database</a>
@@ -91,7 +91,15 @@ function generateUrl($uri, $print=true) {
         Restore your Gallery database from an export that was made from the site administration
         maintenance screen or from the Database Backup step of the Gallery upgrader.
       </p>
-      <hr class="faint" >
+      <hr class="faint">
+
+      <h2>
+        <a href="<?php generateUrl('index.php?search_db') ?>">Import Database</a>
+      </h2>
+      <p class="description">
+        A tool for searching the Gallery2 database
+      </p>
+      <hr class="faint">
 
       <h2>
 	<?php

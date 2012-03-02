@@ -191,7 +191,7 @@ if (isset($_REQUEST['clear']) && isset($_REQUEST['target'])) {
 	  <?php $caches = getCaches(); ?>
 	  <?php foreach ($caches as $key => $info): ?>
 	  <input type="checkbox" name="target[<?php print $key ?>]"
-            <?php if ($info[0]): ?> checked="checked" <?php endif; ?> >
+            <?php if ($info[0]): ?> checked="checked" <?php endif; ?>>
 	  <?php print $info[3] ?> <br>
 	  <?php endforeach; ?>
 	  <input type="submit" name="clear" value="Clear Cache">
