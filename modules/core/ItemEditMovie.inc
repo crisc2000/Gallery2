@@ -131,3 +131,4 @@ class ItemEditMovie extends ItemEditPlugin {
 	return array(null, $module->translate('Movie Size'));
     }
 }
+?>

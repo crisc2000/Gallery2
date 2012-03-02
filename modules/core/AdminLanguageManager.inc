@@ -604,3 +604,4 @@ class AdminLanguageManagerView extends GalleryView {
 	return array(null, $packageCount);
     }
 }
+?>

@@ -180,3 +180,4 @@ class UserRecoverPasswordConfirmView extends GalleryView {
 	}
     }
 }
+?>

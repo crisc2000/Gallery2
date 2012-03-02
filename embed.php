@@ -34,3 +34,4 @@ require(dirname(__FILE__) . '/main.php');
 require(dirname(__FILE__) . '/modules/core/classes/GalleryEmbed.class');
 
 GalleryEmbed::getEmbedPathByHttpRequest();
+?>

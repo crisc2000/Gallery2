@@ -241,3 +241,4 @@ class DownloadItemView extends GalleryView {
 	return null;
     }
 }
+?>

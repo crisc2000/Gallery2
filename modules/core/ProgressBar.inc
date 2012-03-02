@@ -33,3 +33,4 @@ class ProgressBarView extends GalleryView {
 	return VIEW_TYPE_PROGRESS_BAR;
     }
 }
+?>

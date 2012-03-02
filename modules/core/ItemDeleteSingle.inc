@@ -90,3 +90,4 @@ class ItemDeleteSingleController extends GalleryController {
 	return array(null, $result);
     }
 }
+?>

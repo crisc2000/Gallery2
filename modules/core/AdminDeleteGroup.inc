@@ -114,3 +114,4 @@ class AdminDeleteGroupView extends GalleryView {
 		     array('body' => 'modules/core/templates/AdminDeleteGroup.tpl'));
     }
 }
+?>

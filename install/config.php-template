@@ -192,3 +192,4 @@ $gallery->setConfig('galleryBaseUrl', '');
  *           $gallery->setConfig('baseUri', 'https://example.com:8080/gallery2/index.php');
  */
 $gallery->setConfig('baseUri', '');
+?>

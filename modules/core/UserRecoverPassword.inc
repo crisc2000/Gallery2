@@ -284,3 +284,4 @@ class UserRecoverPasswordView extends GalleryView {
 	return array(null, array('body' => 'modules/core/templates/UserRecoverPassword.tpl'));
     }
 }
+?>

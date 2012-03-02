@@ -183,3 +183,4 @@ class UserChangePasswordView extends GalleryView {
 	return array(null, $core->translate('change password'));
     }
 }
+?>

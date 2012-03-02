@@ -92,3 +92,4 @@ class LogoutController extends GalleryController {
 	return array(null, $results);
     }
 }
+?>

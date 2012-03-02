@@ -302,3 +302,4 @@ class ItemEditCaptionsView extends GalleryView {
 	return array(null, $core->translate('edit captions'));
     }
 }
+?>

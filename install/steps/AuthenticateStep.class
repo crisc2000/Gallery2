@@ -94,3 +94,4 @@ class AuthenticateStep extends InstallStep {
 	return $this->_uniqueKey;
     }
 }
+?>

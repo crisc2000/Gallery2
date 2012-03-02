@@ -295,3 +295,4 @@ class SiteAdminView extends GalleryView {
 	return ($an > $bn) ? 1 : -1;
     }
 }
+?>

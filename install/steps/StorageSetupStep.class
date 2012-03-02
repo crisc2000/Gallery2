@@ -317,3 +317,4 @@ class StorageSetupStep extends InstallStep {
 	return array(true, strpos($fetchedPage, $probeString) !== false);
     }
 }
+?>

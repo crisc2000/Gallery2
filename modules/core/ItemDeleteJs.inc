@@ -103,3 +103,4 @@ class ItemDeleteJsView extends GalleryView {
 	return $ret;
     }
 }
+?>

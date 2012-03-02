@@ -98,3 +98,4 @@ class SupportStatusTemplate {
 	include(dirname(__FILE__) . '/templates/SupportStatus.html');
     }
 }
+?>

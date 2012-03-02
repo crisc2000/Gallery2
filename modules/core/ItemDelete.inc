@@ -285,3 +285,4 @@ class ItemDeleteView extends GalleryView {
 	return array(null, $core->translate('delete an item'));
     }
 }
+?>

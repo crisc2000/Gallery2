@@ -52,3 +52,4 @@ class MaintenanceModeView extends GalleryView {
 	return array(null, $module->translate('Maintenance'));
     }
 }
+?>

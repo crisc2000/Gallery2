@@ -697,3 +697,4 @@ function _GalleryMain_errorHandler($error, $g2Data=null) {
 	GalleryCoreApi::addEventLogEntry('Gallery Error', $summary, $error->getAsText());
     }
 }
+?>

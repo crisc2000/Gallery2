@@ -411,3 +411,4 @@ class ItemEditItem extends ItemEditPlugin {
 	return array(null, $module->translate('General'));
     }
 }
+?>

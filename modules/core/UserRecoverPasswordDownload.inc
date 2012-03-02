@@ -64,3 +64,4 @@ class UserRecoverPasswordDownloadView extends GalleryView {
 	return null;
     }
 }
+?>

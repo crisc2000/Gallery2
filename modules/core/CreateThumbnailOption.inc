@@ -72,3 +72,4 @@ class CreateThumbnailOption extends ItemAddOption {
 	return array(null, $errors, $warnings);
     }
 }
+?>

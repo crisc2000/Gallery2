@@ -754,3 +754,4 @@ class DatabaseSetupStep extends InstallStep {
 	return false;
     }
 }
+?>

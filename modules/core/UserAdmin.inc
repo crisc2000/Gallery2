@@ -160,3 +160,4 @@ class UserAdminView extends GalleryView {
 	return VIEW_TYPE_ADMIN;
     }
 }
+?>

@@ -138,3 +138,4 @@ class ShowItemView extends GalleryView {
 	return VIEW_TYPE_SHOW_ITEM;
     }
 }
+?>

@@ -38,3 +38,4 @@ class GalleryStub {
     function setProfile() { }
     function debug() { }
 }
+?>

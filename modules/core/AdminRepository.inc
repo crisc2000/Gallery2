@@ -315,3 +315,4 @@ class AdminRepositoryView extends GalleryView {
 	return $cmp;
     }
 }
+?>

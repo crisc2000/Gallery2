@@ -145,3 +145,4 @@ class SimpleCallbackView extends GalleryView {
 	return empty($dirList) ? $fileList : array_merge($dirList, $fileList);
     }
 }
+?>

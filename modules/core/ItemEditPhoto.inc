@@ -283,3 +283,4 @@ class ItemEditPhoto extends ItemEditPlugin {
 	return array(null, $module->translate('Photo'));
     }
 }
+?>

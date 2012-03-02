@@ -54,3 +54,4 @@ if (!defined('GALLERY_CONFIG_DIR')) {
 if (!defined('SID')) {
     @ini_set('session.use_trans_sid', 0);
 }
+?>

@@ -84,3 +84,4 @@ class ItemAddConfirmationView extends GalleryView {
 	return array(null, $core->translate('add items confirmation'));
     }
 }
+?>

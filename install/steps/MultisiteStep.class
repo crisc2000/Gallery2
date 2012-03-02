@@ -197,3 +197,4 @@ class MultisiteStep extends InstallStep {
 	$galleryStub = $gallery;
     }
 }
+?>

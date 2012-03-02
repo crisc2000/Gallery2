@@ -386,3 +386,4 @@ class ItemEditPhotoThumbnail extends ItemEditPlugin {
 	return array(null, $module->translate('Crop Thumbnail'));
     }
 }
+?>
