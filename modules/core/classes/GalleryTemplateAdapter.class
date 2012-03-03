@@ -392,7 +392,7 @@ class GalleryTemplateAdapter {
 
 	/* Javascript */
 	// load Jquery
-	$output[] = sprintf('<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>');
+	$output[] = '<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>';
 	if (!empty($head['javascript'])) {
 	    $theme = $templateVars['theme'];
 	    if (empty($theme['pageType']) || $theme['pageType'] != 'error') {
