@@ -68,13 +68,13 @@ class AuthenticateStep extends InstallStep {
 
 		$fileAuth = trim(join('', file($authFile)));
 		if ($fileAuth == $this->_uniqueKey) {
-		    /* Authenticate, but don'treset the login attempts because we have no db */
+		    /* Authenticate, but do not reset the login attempts because we have no db */
 		    GallerySetupUtilities::authenticateThisSession(false);
 		    $this->setComplete(true);
 		} else {
 		    $templateData['errors'][] =
-			_('<b>Error:</b> your <b>login.txt</b> key does not match correctly. ' .
-			  'Please download a new authentication string from below and try again.');
+			_('<b>Error:</b> your <b>login.txt</b> key does not match. ' .
+			  'Please download a new authentication string below and try again.');
 		}
 	    }
 	}
